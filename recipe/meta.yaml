@@ -1,5 +1,5 @@
 {% set name = "youtokentome" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/youtokentome-{{ version }}.tar.gz
-  sha256: 18c5f0b8cbcad3772438a14b023b714b2ca13d006f09cc8a2ef2046912267f2b
+  sha256: 2e72fc110b804c7d63a4a5b04335397c48d9d66773233455d7e571561a6e448f
 
 build:
   number: 0
