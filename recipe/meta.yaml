@@ -11,7 +11,7 @@ source:
   sha256: 2e72fc110b804c7d63a4a5b04335397c48d9d66773233455d7e571561a6e448f
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - yttm = youtokentome.yttm_cli:main
   script: {{ PYTHON }} -m pip install . -vv
