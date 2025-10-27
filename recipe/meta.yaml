@@ -24,6 +24,7 @@ requirements:
     - cython
     - pip
     - python
+    - setuptools
   run:
     - click >=7.0
     - python
